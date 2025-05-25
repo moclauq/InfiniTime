@@ -169,3 +169,4 @@ void WatchFaceTerminal::Refresh() {
     lv_label_set_text_fmt(stepValue, "[STEP]#ee3377 %lu steps#", stepCount.Get());
   }
 }
+
